@@ -2,7 +2,25 @@
 
 
 
+<item>
+        <title>[COLOR green]                                  LISTA 4[/COLOR]</title>
+        <link>http://ignorame</link>
+        <thumbnail>https://raw.githubusercontent.com/MrTvGratis/TvGratis/master/imagenes%20tvgratis/icon1.png</thumbnail>
+        <fanart>https://raw.githubusercontent.com/MrTvGratis/TvGratis/master/imagenes%20tvgratis/icon1.png</fanart>
 
+<externallink>$doregex[notice]</externallink>
+<regex>
+<name>notice</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import xbmc
+  xbmc.executebuiltin("XBMC.Notification(Si no te funciona esta lista,prueba con otra ,10000)")
+  return 'https://raw.githubusercontent.com/MrTvGratis/TvGratis/master/lista%204'
+]]></expres>
+<page></page>
+</regex>
+
+</item>
 
 
 <item>
