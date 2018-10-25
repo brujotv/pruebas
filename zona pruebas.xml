@@ -1,7 +1,266 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
+<item>
+<title>[COLOR white][B]Seccion Deportes [/B][COLOR orange][/COLOR][/COLOR]</title>
+<link>$doregex</link>
+<page></page>
+<thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
+  <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
 
+<item>
+<title>[COLOR lime]*[/COLOR][COLOR white]IPTV[/COLOR][B][COLOR lime][/B] Premium ES [/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>ignore</link>
+<thumbnail>https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/be/88/63/be8863ac-9930-12fe-10d7-b3a1379193d6/source/512x512bb.jpg</thumbnail>
+<externallink>https://pastebin.com/raw/UNKgwNt7</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]*[/COLOR][COLOR white]IPTV[/COLOR][B][COLOR lime][/B] DEPORTES[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>ignore</link>
+<thumbnail>https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/be/88/63/be8863ac-9930-12fe-10d7-b3a1379193d6/source/512x512bb.jpg</thumbnail>
+<externallink>https://pastebin.com/raw/bBE5XGrk</externallink>
+</item>
+
+<item>
+<title>[COLOR red]*[/COLOR][COLOR white]IPTV[/COLOR][B][COLOR orange][/B] LATINOS[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>ignore</link>
+<thumbnail>http://www.ramalin.com/wp-content/uploads/2015/11/mejor-lista-iptv-latina-en-la-hi-207x191.jpg</thumbnail>
+<externallink>https://pastebin.com/raw/NmgN8NYU</externallink>
+</item>
+
+<item>
+<title>[COLOR orange][B]+Avezy[/B][COLOR gold] Addon Requerido[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/avezy.jpg</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock> 
+<title>[COLOR white][B]Deportes[/B] [COLOR orange] Plexus + Acestream  [/COLOR]</title>
+<link>http://ignorame</link>
+<info>Cortesia de Adryanlist </info>
+<thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/hercules/master/deportes/livefootball.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR orange][B]Live TV online[/B][/COLOR] [COLOR white][/COLOR]</title>
+<link>http:/Ignoreme</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/livetv/master/imagenes/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/livetv/master/imagenes/fanart.png</fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/hercules/master/tv-webonline/inicio.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Calentamientos y ruedas de prensa. [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN-vfkNAW15pQYzb5g7eMjZL/</jsonrpc>
+<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
+  <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR orange][B]+ Real Madrid - F.C Barcelona [/B][COLOR white] El clasico 23/12/2017 [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN8nf-RL8qpVd4Zh4XZSRTBi/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<!-- Liga 123 -->
+
+<item>
+<title>[COLOR orange][B]+ La liga 123 [/B][COLOR white] [Todo Sobre la liga] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCs3Gqvp1tO-nK-XNzFlopsg</page> para canales entero
+</regex>  
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Resumen de Partidos [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ9BSOOm2f4Gp8zLOygUpa9T/</jsonrpc>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Goles [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ-6DoNaUm4EyK2U9NR4Q8U5/</jsonrpc>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Entrevistas [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ9GkYtZVqrP93tS5U1Y6UuV/</jsonrpc>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
+
+
+<!-- NBA -->
+<item>
+<title>[COLOR orange][B]+ NBA[/B][COLOR white] [Lo mejor de la NBA] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCR_eeue4E0jNBz8A55DOuOg/</page> para canales entero
+</regex>  
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR orange][B]+ Mejores Jugadas de la NBA [/B][COLOR white] 2017/2018 [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page></page>
+<referer>https://www.youtube.com/user/NBA</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Resumen de partidos - NBA [/B][COLOR white] 2017/2018 [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=gh8pjTCKCVc&list=PLQNqwCpoZBfcp_ipWkIBjQU9h31HKlDVv</page>
+<referer>https://www.youtube.com/user/NBA</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<!-- Formula 1 -->
+
+<item>
+<title>[COLOR orange][B] +F1 [/B][COLOR white] Mejores momentos de Carrera [En ingles] [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXaNGKMmGXPXOqxrXoZ3u0i/</jsonrpc>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B] +F1 [/B][COLOR white] Alrrededor de la Formula 1 [En ingles] [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU/</jsonrpc>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<fanart>g</fanart>
+</item>
+
+
+<item>
+<title>[COLOR orange][B] +F1 [/B][COLOR white] Latinoamerica[/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU/</jsonrpc>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR orange][B]+ Motor[/B][COLOR white] [Soy Motor] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCVjnDHpwPfMBqaqyaWnBJ1g</page> para canales entero
+</regex>  
+<thumbnail>http://www.svoy-hotel.ru/wp-content/uploads/2017/08/two-motor-flags-black.png</thumbnail>
+</item>
+
+<!-- Moto GP -->
+
+<item>
+<title>[COLOR orange][B]+ F1 GP[/B][COLOR white][No Oficial] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCB5KuMSSMiBqy6zutqagKNQ</page> para canales entero
+</regex>  
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Curiosity Channel[/B][COLOR white] [Todo La actualidad deportiva] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UC8RFR7hJvgNTVvvQ8n7z7Lg</page> para canales entero
+</regex>  
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+</item>
 
 <item>
 <title> [COLOR red]*  [/COLOR][COLOR gold]GRAN HERMANO  24H[/COLOR]</title>
