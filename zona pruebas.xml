@@ -1,275 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
-
 <item>
-<title>[COLOR yellow] [COLOR skyblue] anx [/COLOR]</title>
-<sportsdevil>https://vergol.com/live/axn.php</sportsdevil>
-<referer>http://www.vertelevisor.com/</referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
+ <title>[COLOR lightskyblue]Tv premium [COLOR white]Movistar Lista [/COLOR]</title>
+ <link>$doregex[makelist2]</link>
+ <regex> 
+ <name>makelist2</name>
+ <listrepeat><![CDATA[
+ <title>[COLOR lightskyblue][CAPITALIZE][makelist2.param1][/CAPITALIZE][/COLOR]</title>
+ <link>https:$doregex[get-id]|User-Agent=iPad</link>
+ <thumbnail>[makelist2.param2]</thumbnail>
+ <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+ ]]></listrepeat>
+ <expres><![CDATA[(?s)"name": "(.*?)".*?"image": "(.*?)".*?"url": "(.*?)".*?]]></expres>
+ <page>https://raw.githubusercontent.com/gaetanotv/gaetantv/master/lista%20opcional</page>
+ </regex>
+ <regex>
+ <name>get-id</name>
+ <expres>[",\'](//.*m3u8.*?)[",']</expres>
+ <rawpost>password=12345</rawpost>
+ <connection>keep-alive</connection>
+ <accept>*/*</accept>
+ <X-Req>XMLHttpRequest</X-Req>
+ <cookieJar></cookieJar>
+ <page>[makelist2.param3]</page>
+ <referer>https://verliga1.net/</referer>
+ <agent>iPad</agent>
+ </regex>
+ <thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>  
+ <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
-
-
- <item>
-<title>[COLOR cyan][COLOR  lime]•  [/COLOR] Series[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
-<link>$doregex[makelist]</link>
-        <thumbnail>[makelist2.param3]</thumbnail>
-<fanart>[makelist2.param3]</fanart>
-]]></listrepeat>
-<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/topogc/TopoGC/master/Series%2BSeries.xml</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
-        <link>$doregex[getUrl]</link>
-                <thumbnail>[makelist2.param3]</thumbnail>
-    <fanart>[makelist2.param3]</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>[makelist2.param2]/list,1,15</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>[makelist2.param4]/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>[makelist2.param4]/[makelist.param2]</page>
-<referer>[makelist2.param4]/freeworld/fileuploader-67183/list,4,15</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://4.bp.blogspot.com/-vMJdT1wsor8/WWJkr8_w3JI/AAAAAAAAAD8/MZ8EBWfqSAwqV447g4vIzJMGpDR2qwAMACLcBGAs/s1600/Series.png</thumbnail>
-</item>
-
-------------------------------------------------------------------------------------------------------------------------
-
-<item>
-<title>[COLOR cyan][COLOR  lime]•  [/COLOR] Series Infantiles[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
-<link>$doregex[makelist]</link>
-        <thumbnail>[makelist2.param3]</thumbnail>
-<fanart>[makelist2.param3]</fanart>
-]]></listrepeat>
-<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/topogc/TopoGC/master/Series%2BSeriesInfantiles.xml</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
-        <link>$doregex[getUrl]</link>
-                <thumbnail>[makelist2.param3]</thumbnail>
-    <fanart>[makelist2.param3]</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>[makelist2.param2]/list,1,15</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>[makelist2.param4]/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>[makelist2.param4]/[makelist.param2]</page>
-<referer>[makelist2.param4]/freeworld/fileuploader-67183/list,4,15</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://4.bp.blogspot.com/-p42-EqL-8uI/WXtX4KunXJI/AAAAAAAAAGc/xQFVLjQJJMwGEuqg49jDh3MmpJtONXq4gCLcBGAs/s1600/Series%2BInfantiles.png</thumbnail>
-</item>
-
-
---------------------------------------------------------------------------------------------------------------------------
-
-<item>
-<title>[COLOR cyan][COLOR  lime]•  [/COLOR] Series Retro[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
-<link>$doregex[makelist]</link>
-        <thumbnail>[makelist2.param3]</thumbnail>
-<fanart>[makelist2.param3]</fanart>
-]]></listrepeat>
-<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/topogc/TopoGC/master/Series%2BSeriesRetro.xml</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
-        <link>$doregex[getUrl]</link>
-                <thumbnail>[makelist2.param3]</thumbnail>
-    <fanart>[makelist2.param3]</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>[makelist2.param2]/list,1,15</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>[makelist2.param4]/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>[makelist2.param4]/[makelist.param2]</page>
-<referer>[makelist2.param4]/freeworld/fileuploader-67183/list,4,15</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://3.bp.blogspot.com/-2j7bvbHSIec/WXtX4NVA0MI/AAAAAAAAAGg/DDt58pqBamo21ct6rQLlsOhNQrfqjOgBQCLcBGAs/s1600/Series%2BRetro.png</thumbnail>
-</item>
-
-----------------------------------------------------------------------------------------------------------------------------
-
-<item>
-<title>[COLOR cyan][COLOR  lime]•  [/COLOR] Series Estrenos[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
-<link>$doregex[makelist]</link>
-        <thumbnail>[makelist2.param3]</thumbnail>
-<fanart>[makelist2.param3]</fanart>
-]]></listrepeat>
-<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/topogc/TopoGC/b60d801b70d9e984f1f320f937eaad097cc462d2/Series%2BSeriesEstrenos.xml</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
-        <link>$doregex[getUrl]</link>
-                <thumbnail>[makelist2.param3]</thumbnail>
-    <fanart>[makelist2.param3]</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>[makelist2.param2]/list,1,15</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>[makelist2.param4]/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>[makelist2.param4]/[makelist.param2]</page>
-<referer>[makelist2.param4]/freeworld/fileuploader-67183/list,4,15</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://1.bp.blogspot.com/-l3YHHeNGIQ4/WXtX3pGfIfI/AAAAAAAAAGQ/sFKf5RBhHFY_xLWykHes2eE9i41M9-QtgCLcBGAs/s1600/Series%2BEstrenos.png</thumbnail>
-</item>
-
-----------------------------------------------------------------------------------------------------------
-
-<item>
-<title>[COLOR cyan][COLOR  lime]•  [/COLOR]Juego De Tronos[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-<fanart>http://idg.bg/test/pcw/2016/12/5/26301-Google-Play--Best-of-2016-6-GoT.jpg</fanart>
-<thumbnail>http://idg.bg/test/pcw/2016/12/5/26301-Google-Play--Best-of-2016-6-GoT.jpg</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/SHIRKAM/juego-de-tronos-completa-49718/list,1,3</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/SHIRKAM/juego-de-tronos-completa-49718/list,1,3</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<fanart>https://4.bp.blogspot.com/-O-p7x5Unf8E/WXtZzVMfPsI/AAAAAAAAAG0/QpykrzBCQhseJ8sD3XI40FMgQJ1pCMqfQCLcBGAs/s1600/Fanart.jpg</fanart>
-<thumbnail>https://2.bp.blogspot.com/-DxmNCiBLotg/WZrDIRzbacI/AAAAAAAAAIw/3AExV5i0wJAOfDOBonOUcaM5tCsWBHbwgCLcBGAs/s1600/juegodetronos.png</thumbnail>
-</item>
-<items>
-
-  
- <item>
-<title>[COLOR lime]• [/COLOR][COLOR cyan] Series Torete [/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart>https://4.bp.blogspot.com/-O-p7x5Unf8E/WXtZzVMfPsI/AAAAAAAAAG0/QpykrzBCQhseJ8sD3XI40FMgQJ1pCMqfQCLcBGAs/s1600/Fanart.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/elchocolate/tvchocotv/master/zona%20serie/MENU%20SERIES.xml</externallink>
-</item>
-
-
-
 
 
 
