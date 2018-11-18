@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
+
+<item>
+<title>[COLOR yellow] [COLOR skyblue] anx [/COLOR]</title>
+<sportsdevil>https://vergol.com/live/axn.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
  <item>
 <title>[COLOR cyan][COLOR  lime]•  [/COLOR] Series[/COLOR]</title>
 <link>$doregex[makelist2]</link>
