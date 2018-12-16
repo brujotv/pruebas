@@ -69,21 +69,7 @@
 
 
 
-<item>
-<title>[COLOR lime]*[/COLOR][COLOR white]IPTV[/COLOR][B][COLOR lime][/B] DEPORTES[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>ignore</link>
-<thumbnail>https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/be/88/63/be8863ac-9930-12fe-10d7-b3a1379193d6/source/512x512bb.jpg</thumbnail>
-<externallink>https://pastebin.com/raw/bBE5XGrk</externallink>
-</item>
 
-<item>
-<title>[COLOR red]*[/COLOR][COLOR white]IPTV[/COLOR][B][COLOR orange][/B] LATINOS[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>ignore</link>
-<thumbnail>http://www.ramalin.com/wp-content/uploads/2015/11/mejor-lista-iptv-latina-en-la-hi-207x191.jpg</thumbnail>
-<externallink>https://pastebin.com/raw/NmgN8NYU</externallink>
-</item>
 
 <item>
 <title>[COLOR orange][B]+Avezy[/B][COLOR gold] Addon Requerido[/COLOR][/COLOR]</title>
@@ -103,13 +89,7 @@
 <externallink>https://raw.githubusercontent.com/Andorth/hercules/master/deportes/livefootball.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR orange][B]Live TV online[/B][/COLOR] [COLOR white][/COLOR]</title>
-<link>http:/Ignoreme</link>
-<thumbnail>https://raw.githubusercontent.com/Andorth/livetv/master/imagenes/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/livetv/master/imagenes/fanart.png</fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/hercules/master/tv-webonline/inicio.xml</externallink>
-</item>
+
 
 
 <item>
@@ -313,139 +293,6 @@
 </regex>  
 <thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 </item>
-
-<item>
-<title> [COLOR red]*  [/COLOR][COLOR gold]GRAN HERMANO  24H[/COLOR]</title>
-<link>https://mdslivehls-i.akamaihd.net/hls/live/571672/realities/bitrate_4.m3u8</link>
-<thumbnail>http://www.ideal.es/noticias/201611/13/media/cortadas/gh1-kK6F-U204258338526Y7C-575x323@Ideal.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
- <item>
-<title>[COLOR red] *  [/COLOR][COLOR gold][COLOR white]OPERACION TRIUNFO 24H[/COLOR]</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=6Lzw7oYTEMo</link>
-<thumbnail>https://pbs.twimg.com/profile_images/887964803343503360/nvitNfww_400x400.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
-
-
-<item>
-<title>[COLOR white][B]Elitegol.me[/B] Live tv - Deportes. [/COLOR] </title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR gold][B][makelist.param2][/B][/COLOR]</title>
-<sportsdevil>[makelist.param1]</sportsdevil>
-<referer>http://www.elitegol.me/</referer>
-<thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres>a href="(.*)".*title="(.*?)online.*?src="(.*?)"</expres>
-<page>http://www.elitegol.me/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-
-<item>
-<title>[COLOR white][B]VipGoal.Net[/B] [/COLOR] </title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR yellow][B][makelist.param2][/B][/COLOR]</title>
-<sportsdevil>[makelist.param1]</sportsdevil>
-<referer>http://www.vipgoal.net/</referer>
-<thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres>a href="(.*)".*title="(.*?)online.*?src="(.*?)"</expres>
-<page>http://www.vipgoal.net/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-<item>
-	<title>[COLOR gold]+[/COLOR][COLOR blue][COLOR deepskyblue] EVENTOS DEPORTIVOS[/COLOR]</title>
-	<link>$doregex[makelist2]</link>
-	<thumbnail>http://ukbuzz.wordpress.eurosport.com/wp-content/uploads/sites/11/2015/12/different-sports-Google-Search-Google-Chrome-1170x658.jpg</thumbnail>
-	<regex>
-		<name>makelist2</name>
-		<listrepeat><![CDATA[
-		<title>[makelist2.param2]</title>
-		<link>$doregex[get-m3u8]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36&amp;Referer=http://www.dinozap.info/redirect/embedredi.php</link>
-		<thumbnail>https://www.dropbox.com/s/9eh7hu3w5jse5qs/mexflix24.png?dl=1</thumbnail>
-		]]></listrepeat>
-		<expres>nombre.*href="(.*?)" title="(.*?)"</expres>
-		<page>http://www.vipgoal.net/</page>
-	</regex>
-	<regex>
-		<name>get-m3u8</name>
-		<expres>$pyFunction:base64.b64decode('$doregex[m3u8-3]')</expres>
-		<page></page>
-	</regex>
-	<regex>
-		<name>m3u8-3</name>
-		<expres>$pyFunction:base64.b64decode('$doregex[m3u8-2]')</expres>
-		<page></page>
-	</regex>
-	<regex>
-		<name>m3u8-2</name>
-		<expres>$pyFunction:base64.b64decode('$doregex[m3u8]')</expres>
-		<page></page>
-	</regex>
-	<regex>
-		<name>m3u8</name>
-		<expres>$doregex[gada]".*value="(.*?)"</expres> 
-		<page>$doregex[pagina]</page>
-		<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-		<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
-	</regex>
-	<regex>
-		<name>gada</name>
-		<expres>GADA .*\'(.*?)\'</expres>
-		<page>$doregex[pagina]</page>
-		<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-		<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
-	</regex>
-	<regex>
-		<name>pagina</name>
-		<expres>src="(.*?)"</expres>
-		<page>http://www.sunhd.info/channelsa.php?file=$doregex[play]&amp;width=650&amp;height=410&amp;autostart=true</page>
-		<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-		<referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
-	</regex>
-	<regex>
-		<name>play</name>
-		<expres>file=(.*?)\&</expres>
-		<page>http://www.vipgoal.net/[makelist2.param1]</page>
-		<cookieJar></cookieJar>
-	</regex>
-	<thumbnail>http://ukbuzz.wordpress.eurosport.com/wp-content/uploads/sites/11/2015/12/different-sports-Google-Search-Google-Chrome-1170x658.jpg</thumbnail>
-</item>
-
-<item>
-        <title>[COLOR green]                                  LISTA 4[/COLOR]</title>
-        <link>http://ignorame</link>
-        <thumbnail>https://raw.githubusercontent.com/MrTvGratis/TvGratis/master/imagenes%20tvgratis/icon1.png</thumbnail>
-        <fanart>https://raw.githubusercontent.com/MrTvGratis/TvGratis/master/imagenes%20tvgratis/icon1.png</fanart>
-
-<externallink>$doregex[notice]</externallink>
-<regex>
-<name>notice</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-  import xbmc
-  xbmc.executebuiltin("XBMC.Notification(Si no te funciona esta lista,prueba con otra ,10000)")
-  return 'https://raw.githubusercontent.com/MrTvGratis/TvGratis/master/lista%204'
-]]></expres>
-<page></page>
-</regex>
-
-</item>
-
 
 <item>
 <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR yellow] Krampus 2 The Devil Returns[/B][/COLOR][COLOR lime][I] - HDRip [/I][/COLOR]</title>
