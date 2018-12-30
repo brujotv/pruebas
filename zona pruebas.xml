@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+"<item>
+<title>prueba acestream</title>
+<link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>Link [makelist.param2]</title>
+   <link>plugin://program.plexus/?mode=1&amp;url=[makelist.param1]&amp;name=Link[makelist.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[player\.php\?id=([^"]*)">[^\d]*(.*?)<]]></expres>
+<page>
+https://es.dplay.com/dmax/control-de-fronteras-espana/temporada-5-episodio-8/</page>
+</regex>
+</item>"
+
+https://es.dplay.com/dmax/control-de-fronteras-espana/temporada-5-episodio-8/
+
+
+
 <item>
 <title>[COLOR lime]•[/COLOR] Series Dkiss</title>
  <link>$doregex[magyck]</link>
