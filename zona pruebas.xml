@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 "<item>
-<title>prueba acestream</title>
+<title>prueba acestream dkiss</title>
 <link>$doregex[makelist]</link>
 <thumbnail></thumbnail>
 <regex>
@@ -11,7 +11,7 @@
    <link>plugin://program.plexus/?mode=1&amp;url=[makelist.param1]&amp;name=Link[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[player\.php\?id=([^"]*)">[^\d]*(.*?)<]]></expres>
-<page>https://es.dplay.com/dmax/control-de-fronteras-espana/</page>
+<page>https://dplaysouth-vod.akamaized.net/dplaydni/52772/0/hls/4158065001/exp=1546255456~acl=%2f*~data=hdntl~hmac=a2bf8fe42b70ff703fce93f436ce382ff8aa45d4e6953794370947af1f9f032b/35458740-739435694-prog_index.m3u8?version_hash=99a60df2&mux_audio</page>
 </regex>
 </item>"
 
