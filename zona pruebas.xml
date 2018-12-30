@@ -29,14 +29,14 @@
      <link>$doregex[magyck3]</link>  
 ]]></listrepeat>
 <expres>(?s)class="episode-slide animated "([^<]+).*?a href="([^"]+).*?data-duration='([^']+).*?class="caros-show-title">([^<]+).*?class="caros-ep-title">([^<]+).*?</expres>
-<page>https://es.dplay.com/[magyck.param1]</page>
+<page>https://es.dplay.com/dmax/control-de-fronteras-espana/[magyck.param1]</page>
 <cookieJar></cookieJar>
 </regex>
  
 <regex>
 <name>magyck3</name>  
 <expres>\"url.+\"(.*?)true.\"</expres>
-<page>https://es.dplay.com//[magyck2.param2]</page>
+<page>https://es.dplay.com/dmax/control-de-fronteras-espana/[magyck2.param2]</page>
 <cookieJar></cookieJar>
 </regex>
  
