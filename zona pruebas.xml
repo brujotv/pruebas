@@ -4,7 +4,7 @@
 
 
 "<item>
-<title>prueba torrent</title>
+<title>prueba acestreeam</title>
 <link>$doregex[makelist]</link>
 <thumbnail>http://savepic.net/7787092.png</thumbnail>
 <regex>
@@ -14,23 +14,10 @@
    <link>plugin://program.plexus/?mode=1&amp;url=[makelist.param1]&amp;name=Link[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[player\.php\?id=([^"]*)">[^\d]*(.*?)<]]></expres>
-<page>https://es.dplay.com/dkiss/las-kardashian/temporada-14-episodio-14/</page>
+<page>https://www.mitele.es/directo/telecinco</page>
 </regex>
 </item>"
-"<item>
-<title>[COLOR deepskyblue]SATISFACTION[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<thumbnail>http://savepic.net/7825838.png</thumbnail>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>Link [makelist.param2]</title>
-   <link>plugin://program.plexus/?mode=1&amp;url=[makelist.param1]&amp;name=Link[makelist.param2]</link>
-]]></listrepeat>
-<expres><![CDATA[player\.php\?id=([^"]*)">[^\d]*(.*?)<]]></expres>
-<page>https://es.dplay.com/dkiss/las-kardashian/temporada-14-episodio-14/</page>
-</regex>
-</item>"
+
 
 
 
