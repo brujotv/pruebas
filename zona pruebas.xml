@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>2</title>
-<urlsolve>https://dplaysouth-vod.akamaized.net/dplaydni/53647/0/hls/4211942001/exp=1546255602~acl=%2f*~data=hdntl~hmac=45d366733538d28c42bdd9eec2fd939e99acf9d017d9145263ea1fcdd538465d/751611552-739435694-prog_index.m3u8?version_hash=6a434211&mux_audio</urlsolve>
-<thumbnail><thumbnail>
-<fanart></fanart>
-<info></info> 
-</item>
-
-<item>
-<title>1</title>        
-<link>https://dplaysouth-vod.akamaized.net/dplaydni/53647/0/hls/4211942001/exp=1546255602~acl=%2f*~data=hdntl~hmac=45d366733538d28c42bdd9eec2fd939e99acf9d017d9145263ea1fcdd538465d/751611552-739435694-prog_index.m3u8?version_hash=6a434211&mux_audio</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-
-
 
 
 <item>
