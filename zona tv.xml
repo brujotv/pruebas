@@ -9,3 +9,32 @@
 <link>http://ignoreme</link>
 <externallink>http://iptvisiontop.com:25461/get.php?username=NB9XdtlGsH&password=JazKKm42RA&type=m3u_plus&output=ts</externallink>
 </item>
+
+<item>
+<title>[COLOR red] _**_ [/COLOR][COLOR  skyblue] MOVISTAR bein [/COLOR][COLOR red] _**_ [/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>https://ssl5.cdn4.us/ingest06/28391.m3u8?sf=MWZIVWpIWnRSSQ==&token=C8Ph2KBArVvg1XbSP4YgTg&expires=1548555630&rnd=28391</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1024px-Movistar_Golf.svg.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+ <title>[COLOR lime]•[/COLOR] FULL TOP'S</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCKn0UcDmgWZvlI-32_-ED-A</page>
+</regex>
+<thumbnail>https://yt3.ggpht.com/a-/AAuE7mAVx8fsUCiegNPmJZVlvEZUez3pOFTgDlPHXw=s288-mo-c-c0xffffffff-rj-k-no</thumbnail>
+</item>
+
