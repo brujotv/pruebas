@@ -9,6 +9,223 @@
 </item>
 
 
+217 lines (120 sloc) 4.28 KB
+<item>
+<title>[COLOR white]+ Moto GP[/COLOR]</title>
+ <link>$doregex[mongolia]</link> 
+ 
+<regex>
+<name>mongolia</name>  
+<listrepeat><![CDATA[  
+<title>[COLOR lime] Moto [COLOR white][mongolia.param2][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[mongolia2]</link>  
+]]></listrepeat>
+<expres><![CDATA[[^"+]<a href="(.*?)".*[^"+]+Descargar Moto(.*?)2018.*]]></expres>
+<page>http://descargas.eventoshq.me/category/motogp/</page>
+<cookieJar></cookieJar>
+</regex> 
+
+
+<regex>
+<name>mongolia2</name>  
+<listrepeat><![CDATA[  
+<title>[COLOR lime] - [COLOR yellow][mongolia2.param1][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<urlsolve>[mongolia2.param1]</urlsolve>  
+]]></listrepeat>
+<expres><![CDATA[<p><iframe src="(.*?)"]]></expres>
+<page>[mongolia.param1]</page>
+<cookieJar></cookieJar>
+</regex> 
+ </item>
+ 
+
+
+<item>
+
+<title>[COLOR white]+ F1[/COLOR]</title>
+
+ <link>$doregex[mongolia]</link>
+
+<regex>
+
+<name>mongolia</name>  
+
+<listrepeat><![CDATA[  
+
+<title>[B][COLOR lime] [mongolia.param2] - [COLOR white] [mongolia.param3][/COLOR][/B]</title>
+
+<thumbnail>[mongolia.param4]</thumbnail>
+
+<fanart></fanart>
+
+<link>$doregex[mongolia2]</link>  
+
+]]></listrepeat>
+
+<expres><![CDATA[<div class.*[^"]+<a href="http://www.dascer.com/(.*?)" title="(.*?2018)[^"[A-Z]+(.*?)">[^"]+<img src="(.*?)"]]></expres>
+
+<page>http://www.dascer.com/index.php/category/formula1/</page>
+
+<cookieJar></cookieJar>
+
+</regex>
+
+<regex>
+ 
+  <name>mongolia2</name>  
+ 
+  <listrepeat><![CDATA[  
+ 
+     <title>[COLOR yellow] - [/COLOR] [COLOR white] [mongolia2.param2][/COLOR]</title>
+ 
+<thumbnail></thumbnail>
+ 
+<fanart></fanart>
+ 
+     <urlsolve>https://openload.co/[mongolia2.param1][mongolia2.param2][mongolia.param3]</urlsolve>  
+ 
+]]></listrepeat>
+ 
+<expres><![CDATA[(?s)</a> <a href="https://openload.co/(.*?_-_)(.*?)(_.*?)"]]></expres>
+ 
+<page>http://www.dascer.com/[mongolia.param1]</page>
+ 
+<cookieJar></cookieJar>
+ 
+</regex>
+
+</item>
+
+
+
+<item>
+
+<title>[COLOR white]+ F2[/COLOR]</title>
+
+ <link>$doregex[mongolia]</link>
+
+<regex>
+
+<name>mongolia</name>  
+
+<listrepeat><![CDATA[  
+
+<title>[B][COLOR lime] [mongolia.param2] -[COLOR white] [mongolia.param4][/COLOR][/B]</title>
+
+<thumbnail>[mongolia.param4]</thumbnail>
+
+<fanart></fanart>
+
+<link>$doregex[mongolia2]</link>  
+
+]]></listrepeat>
+
+<expres><![CDATA[<div class.*[^"]+<a href="http://www.dascer.com/(.*?)" title="(.*?2018)(.*?)\&.*;(.*?)">[^"]+src="(.*?)"]]></expres>
+
+<page>http://www.dascer.com/index.php/category/formula2/</page>
+
+<cookieJar></cookieJar>
+
+</regex>
+
+<regex>
+ 
+  <name>mongolia2</name>  
+ 
+  <listrepeat><![CDATA[  
+ 
+     <title>[B][COLOR yellow] - [/COLOR] [COLOR white] [mongolia2.param2][/COLOR][/B]</title>
+ 
+<thumbnail></thumbnail>
+ 
+<fanart></fanart>
+ 
+     <urlsolve>https://openload.co/[mongolia2.param1][mongolia2.param2][mongolia.param3]</urlsolve>  
+ 
+]]></listrepeat>
+ 
+<expres><![CDATA[(?s)</a> <a href="https://openload.co/(.*?_-_)(.*?)(_.*?)"]]></expres>
+ 
+<page>http://www.dascer.com/[mongolia.param1]</page>
+ 
+<cookieJar></cookieJar>
+ 
+</regex>
+
+</item>
+
+
+<item>
+
+ 
+
+<title>[COLOR white]+ WEC[/COLOR]</title>
+
+
+ <link>$doregex[mongolia]</link>
+
+<regex>
+
+<name>mongolia</name>  
+
+<listrepeat><![CDATA[  
+
+<title>[COLOR lime] [mongolia.param2] - [COLOR white] [mongolia.param3][/COLOR]</title>
+
+<thumbnail>[mongolia.param4]</thumbnail>
+
+<fanart></fanart>
+
+<link>$doregex[mongolia2]</link>  
+
+]]></listrepeat>
+
+<expres><![CDATA[<div class.*[^"]+<a href="http://www.dascer.com/(.*?)" title="(.*?2018)[^"[A-Z]+(.*?)">[^"]+<img src="(.*?)"]]></expres>
+
+<page>http://www.dascer.com/index.php/category/wec/</page>
+
+<cookieJar></cookieJar>
+
+</regex>
+
+<regex>
+ 
+  <name>mongolia2</name>  
+ 
+  <listrepeat><![CDATA[  
+ 
+     <title>[B][COLOR yellow] - [/COLOR] [COLOR white] [mongolia2.param2][/COLOR][/B]</title>
+ 
+<thumbnail></thumbnail>
+ 
+<fanart></fanart>
+ 
+     <urlsolve>https://openload.co/[mongolia2.param1][mongolia2.param2][mongolia.param3]</urlsolve>  
+ 
+]]></listrepeat>
+ 
+<expres><![CDATA[(?s)</a> <a href="https://openload.co/(.*?_-_)(.*?)(_.*?)"]]></expres>
+ 
+<page>http://www.dascer.com/[mongolia.param1]</page>
+ 
+<cookieJar></cookieJar>
+ 
+</regex>
+
+<item>
+<title>[B][COLOR white]+ Futbol [/COLOR][/B]</title>
+<link>ignorme</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<jsonrpc>plugin://plugin.video.youtube/user/Vamos/</jsonrpc>
+<info></info>
+</item>
+ 
+</item>
 
 
 <item>
