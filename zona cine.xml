@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  
+
+
+<item>
+<title>prueba peliculas quasar</title>
+<link>plugin.video.quasar/play?uri=http://www.mejortorrent.org/uploads/torrents/tmp/torrent.php?table=peliculas/&name=santa-claus-and-cia-blurayrip.torrent</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+</item>
+
+
 <item>
 <title>[B][COLOR orange]Blackway - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere Quasar[/COLOR][/COLOR]</title>
 <link>plugin.video.torrenter/play?uri=http://www.mejortorrent.org/uploads/torrents/peliculas/Fast_And_Furious_4_FullBluRay_1080p.torrent</link>
