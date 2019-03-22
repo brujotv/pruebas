@@ -5,7 +5,7 @@
 
 <item>
 <title>prueba peliculas quasar</title>
-<link>plugin.video.quasar/play?uri=https://www.divxtotal3.net/wp-content/uploads/2019/03/Aquaman-BluRay-Rip-720p-X264-MKVAC3-5.1-Castellano-Ingles-Sub-ES2019.mkv.torrent</link>
+<link>plugin://plugin.video.quasar/play?uri=https://www.divxtotal3.net/wp-content/uploads/2019/03/Aquaman-BluRay-Rip-720p-X264-MKVAC3-5.1-Castellano-Ingles-Sub-ES2019.mkv.torrent</link>
 <fanart></fanart>
 <thumbnail></thumbnail>
 </item>
