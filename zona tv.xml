@@ -1,9 +1,52 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+ <item>
+<title>[COLOR lime]•[/COLOR] prueba mitele</title>
+ <link>$doregex[magyck]</link>
  
+<regex>
+<name>magyck</name>  
+<listrepeat><![CDATA[  
+<title>[B][COLOR red] - [COLOR white][magyck.param2] [/COLOR][/B]</title>
+<thumbnail>[magyck.param3]</thumbnail>
+<fanart>[magyck.param3]</fanart>
+<link>$doregex[magyck2]</link>  
+]]></listrepeat>
+<expres><![CDATA[(?s)<li><a href="/dkiss/([^"]+).*?>([^<]+).*?]]></expres>
+<page>https://www.mitele.es/programas-tv</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+ 
+ 
+ 
+<regex>
+  <name>magyck2</name>  
+  <listrepeat><![CDATA[  
+     <title>[B][COLOR greenyellow] - [/COLOR][COLOR white][magyck2.param5][/COLOR][/B]</title>
+<thumbnail>[magyck.param3]</thumbnail>
+<fanart>[magyck.param3]</fanart>
+     <link>$doregex[magyck3]</link>  
+]]></listrepeat>
+<expres>(?s)class="episode-slide animated "([^<]+).*?a href="([^"]+).*?data-duration='([^']+).*?class="caros-show-title">([^<]+).*?class="caros-ep-title">([^<]+).*?</expres>
+<page>https://www.mitele.es/[magyck.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+<regex>
+<name>magyck3</name>  
+<expres>\"url.+\"(.*?)true.\"</expres>
+<page>https://www.mitele.es/[magyck2.param2]</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+<thumbnail>http://www.kissfm.es/wp-content/uploads/2016/04/DKISS-WEB-650x361.png</thumbnail>
+<fanart>http://perdidosenlatele.com/wp-content/uploads/2016/04/DKISS.png</fanart>
+</item>
+
 <item>
-<title>[COLOR lime]•[/COLOR] prueba programas tv [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR] prueba programas tv </title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
