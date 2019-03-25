@@ -1,6 +1,28 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+
+
+<item>
+<title>[COLOR lime]•[/COLOR] index javi </title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/javilucy609/RetroTv/master/index%20javi.xml</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR lime]•[/COLOR] index tvretro </title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/javilucy609/RetroTv/master/index.xml</externallink>
+</item>
+
+
+
  <item>
 <title>[COLOR lime]•[/COLOR] prueba mitele</title>
  <link>$doregex[magyck]</link>
