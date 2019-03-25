@@ -3,6 +3,21 @@
 
 
 <item>
+<title>Canal Sur Andalucia - [COLOR tomato]Youtube[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCqwjtgaJflHga2aPWphG5PQ/live/</jsonrpc>
+<thumbnail>http://flags.fmcdn.net/data/flags/w580/es.png</thumbnail>  
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] index derens41210 </title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/derens41210/demusp/master/index.xml</externallink>
+</item>
+
+<item>
 <title>[COLOR lime]•[/COLOR] index bluwytv </title>
 <thumbnail></thumbnail>
 <fanart></fanart>
