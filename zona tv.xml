@@ -2,7 +2,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-
+ <item>
+        <title>[COLOR blue]TDT [/COLOR]</title>
+        <link>_</link>
+        <externallink>http://91.121.64.179/tdt_project/output/channels.m3u8</externallink>
+        <thumbnail>https://i.imgur.com/hTVO6ZB.jpg</thumbnail>
+        <fanart>https://i.imgur.com/Ste6dSM.png</fanart>
+</item>
 
 
 <item>
