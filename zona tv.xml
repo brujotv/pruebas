@@ -2,6 +2,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
+<item>
+<title>[COLOR lime]•[/COLOR] index  RaspberryPiLibreelec </title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RaspberryPiLibreelec/Addon/master/tv/movistar.xml</externallink>
+</item>
+
  <item>
         <title>[COLOR blue]TDT [/COLOR]</title>
         <link>_</link>
