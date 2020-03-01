@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DailySport</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="clckd" content="aab987f7d6f0dcb3af7e93eceb062677" />
+    <script>
+    (function(g,e,o,t,l,y){
+    var l=g.getElementsByTagName(e)[0],y=g.createElement(e); y.async=true;
+    y.src='//geotargetly-1a441.appspot.com/geoblock?id=-Lw95PhQAGWcaa8iTPe3&refurl='+g.referrer+'&winurl='+encodeURIComponent(window.location);
+    l.parentNode.insertBefore(y,l);
+    })(document,'script','style','head');
+    </script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style>
+    .banner-top {
+      text-align:center;
+    }
+</style>
+
+</head>
+
+<body>
+<!--
+  <center>
+    <h4><a target="_blank" href="https://t.me/dailysportlist">https://t.me/dailysportlist</a> - <a target="_blank" href="https://dailysportlist.xyz/">https://dailysportlist.xyz/</a></h4>
+  </center>-->
+  <center>
+    <h4>  Descarga Brave y elimina la publicidad : <a href="https://brave.com/?ref=dai031">https://brave.com/?ref=dai031</a></h4>
+  </center>
+
+  <div class="container pt-4">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>DATE (UTC+01 | CET)</th>
+          <th>MATCH</th>
+          <th>LINK 1</th>
+          <th>LINK 2</th>
+          <th>LINK 3</th>
+          <th>LINK 4</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>01/03 21:00</td>
+        <td>Real Madrid vs FC Barcelona</td>
+        <td><a href="c1.php">Channel 1 Spanish</a></td>
+        <td><a href="c2.php">Channel 2 English (60 fps)</a></td>
+        <td><a href="c11.php">Channel 11 Latin (60 fps)</a></td>
+        <td><a href="c12.php">Channel 12 Spanish (1080p)</a></td>
+      </tr>
+      <tr>
+        <td>01/03 18:30</td>
+        <td>Mallorca vs Getafe</td>
+        <td><a href="c1.php">Channel 1 Spanish</a></td>
+        <td></td>
+        <td><a href="c11.php">Channel 11 Latin (60 fps)</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>01/03 17:30</td>
+        <td>Aston Villa vs Manchester City</td>
+        <td><a href="c3.php">Channel 3 Spanish</a></td>
+        <td><a href="c10.php">Channel 10 English</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>01/03 18:15</td>
+        <td>Real Oviedo vs Tenerife</td>
+        <td><a href="c7.php">Channel 7 Spanish</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>01/03 18:15</td>
+        <td>Fuenlabrada vs Alcorcón</td>
+        <td><a href="c8.php">Channel 8 Spanish</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>01/03 18:00</td>
+        <td>Cagliari vs AS Roma</td>
+        <td><a href="c14.php">Channel 14 Spanish</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>01/03 18:15</td>
+        <td>Unicaja Málaga vs Real Madrid Baloncesto</td>
+        <td><a href="c5.php">Channel 5 Spanish</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>01/03 21:30</td>
+        <td>Philadelphia 76ers vs Los Angeles Clippers</td>
+        <td><a href="c15.php">Channel 15 Spanish</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+
+
+</html>
+
+
