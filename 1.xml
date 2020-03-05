@@ -40,4 +40,4 @@ httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/4
 httphost://$http-raw=https://www.janjua.tv/hembedplayer////$http-refferer=http://arembed.com/live.php?ch=Bein_Sports4Max
 
 #EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",daily1-(SD) Live Streaming
-httphost://$http-raw=https://dailysport.pw/c1.php#////$http-refferer=https://dailysport.pw/c1.php
+httphost://$http-raw=https://dailysport.pw/c1.php////$http-refferer=https://dailysport.pw/c1.php
