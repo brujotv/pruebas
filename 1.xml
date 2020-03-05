@@ -38,3 +38,98 @@ httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/4
 httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports3Max
 #EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports4Max Live Streaming
 httphost://$http-raw=https://www.janjua.tv/hembedplayer////$http-refferer=http://arembed.com/live.php?ch=Bein_Sports4Max
+
+#EXTINF:-1,BSX 24 (18+)
+rtsp://publish.thewebstream.co:1935/bsx24/_definst_/mpegts1.stream
+#EXTINF:-1,Babestation (18+)
+http://publish.thewebstream.co:1935/cellcast/encoder22/playlist.m3u8
+#EXTINF:-1,Babestation 2 (18+)
+http://publish.thewebstream.co:1935/iptv_cellcast_24/livestream_two2/playlist.m3u8
+#EXTINF:-1,Babestation Blue (18+)
+http://publish.thewebstream.co:1935/cellcast/encoder32/playlist.m3u8
+#EXTINF:-1,Babestation Xtra (18+)
+http://publish.thewebstream.co:1935/cellcast/encoder72/playlist.m3u8
+#EXTINF:-1,But Go (18+)
+http://main2sb.everyon.tv:1935/etv2sb/pld10772/HasBahCa.m3u8
+#EXTINF:-1,Candy (18+)
+http://cdn-01.bonus-tv.ru/btv/candy/type/user/devname/LG-SmartTV/devid/LG-1469816054/eol/20200101T0000/hash/e822f177cb4785c93f7b0a50a3534432478f512b/track_2_1000/playlist.m3u8
+#EXTINF:-1,Dollhouse Cam 1 (18+)
+rtmp://216.105.165.72:1941/stream9/live
+#EXTINF:-1,Dollhouse Cam 2 (18+)
+rtmp://216.105.165.72:1939/stream7/live
+#EXTINF:-1,Dollhouse Cam 3 (18+)
+rtmp://216.105.165.72:1940/stream8/live
+#EXTINF:-1,Foxxbabes (18+)
+http://publish.thewebstream.co:1935/leved/foxxxbabes/playlist.m3u8
+#EXTINF:-1,Girls (18+)
+http://123.108.164.70/etv2sb/phd10501/playlist.m3u8
+#EXTINF:-1,HOT AND WET (18+)
+http://publish.thewebstream.co:1935/leved/_definst_/hotandwet1/playlist.m3u8
+#EXTINF:-1,Jasmin TV (18+)
+http://109.71.162.112:1935/live/sd.jasminchannel.stream/playlist.m3u8
+#EXTINF:-1,Jasmin TV HD (18+)
+http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
+#EXTINF:-1,Live Sex Latinas (18+)
+http://publish.thewebstream.co:1935/leved/_definst_/livesexlatinas/playlist.m3u8
+#EXTINF:-1,LIVETing TV (18+)
+http://main2sb.everyon.tv:1935/etv2sb/pld10062/HasBahCa.m3u8
+#EXTINF:-1,Okadai TV (18+)
+http://main2sb.everyon.tv:1935/etv2sb/pld10499/HasBahCa.m3u8
+#EXTINF:-1,Penthouse Asia (18+)
+http://main1sb.everyon.tv:1935/etv1sb/pld10927/HasBahCa.m3u8
+#EXTINF:-1,Play (18+)
+http://123.108.164.70/etv2sb/phd10769/playlist.m3u8
+#EXTINF:-1,Playboy Asia (18+)
+http://main1sb.everyon.tv:1935/etv1sb/pld10497/HasBahCa.m3u8
+#EXTINF:-1,Playboy TV Chat 1 (18+)
+http://publish.thewebstream.co:1935/rlc/_definst_/livestream1/playlist.m3u8
+#EXTINF:-1,Playboy TV Chat 2 (18+)
+http://publish.thewebstream.co:1935/rlc/_definst_/livestream_two1/playlist.m3u8
+#EXTINF:-1,STUDIO 66 TV (18+)
+http://publish.thewebstream.co:1935/leved/studio66tv_channel11/chunklist.m3u8
+#EXTINF:-1,STUDIO 66 TV 2 (18+)
+http://publish.thewebstream.co:1935/leved/studio66tv_channel21/chunklist.m3u8
+#EXTINF:-1,STUDIO 66 TV 3 (18+)
+http://publish.thewebstream.co:1935/leved/studio66tv_channel31/chunklist.m3u8
+#EXTINF:-1,STUDIO 66 TV 4 (18+)
+http://publish.thewebstream.co:1935/leved/studio66tv_channel41/chunklist.m3u8
+#EXTINF:-1,Sexy Sat Arab. (18+)
+http://81.89.48.215:1935/xyz888wkz/xy8/playlist.m3u8
+#EXTINF:-1,Sexy Sat Arab 2 (18+)
+http://81.89.48.215:1935/xyz222wkz/xyz222wkz.stream_360p/playlist.m3u8
+#EXTINF:-1,Sexy Sat Satview (18+)
+http://81.89.48.215:1935/xyz112wkz/xy112_360p/playlist.m3u8
+#EXTINF:-1,Sexy Sat Europe (18+)
+http://81.89.48.215:1935/xyz444wkz/xy4_360p/playlist.m3u8
+#EXTINF:-1,Sexy Sat 1 (18+)
+http://81.89.48.215:1935/xyz666wkz/xy6/playlist.m3u8
+#EXTINF:-1,Sexy Sat 2 (18+)
+http://81.89.48.215:1935/xyz555wkz/xy5/playlist.m3u8
+#EXTINF:-1,Sexy Sat 3 (18+)
+http://81.89.48.215:1935/xyz777wkz/xy777/playlist.m3u8
+#EXTINF:-1,Sexy Sat Brasil (18+)
+http://81.89.48.215:1935/xyz111wkz/xy111_360p/playlist.m3u8
+#EXTINF:-1,THE O (18+)
+http://123.108.164.70/etv2sb/phd10771/playlist.m3u8
+#EXTINF:-1,VISIT-X TV (18+)
+http://stream.visit-x.tv:1935/vxtv/live_720p/playlist.m3u8
+#EXTINF:-1,XXXPanded 1 (18+)
+http://vod2t.xxxpanded.com/x3tv/index_wlan.m3u8
+#EXTINF:-1,XXXPanded 2 (18+)
+http://vod2t.xxxpanded.com/x3tv2/index_wlan.m3u8
+#EXTINF:-1,Playboy TV (18+)
+http://4BA9EBDB07C05883:@t.kraslan.ru/playboy
+#EXTINF:-1,Brazzers TV Europe (18+)
+http://4BA9EBDB07C05883:@t.kraslan.ru/brazzers
+#EXTINF:-1,Hustler HD (18+)
+http://0E9B00ECD326CCAC:@t.kraslan.ru/hustlerhd
+#EXTINF:-1,XXX Asia (18+)
+http://211.22.61.109/stc/ch168171.m3u8
+#EXTINF:-1,Amazing TV (18+)
+http://211.22.61.109/stc/ch168172.m3u8
+#EXTINF:-1,Banana (18+)
+http://211.22.61.109/stc/ch168173.m3u8
+#EXTINF:-1,=== ВИДЕО (18+) ===
+http://hls2.slynet.pw/slynetfreestartpromo?.m3u8
+
+
