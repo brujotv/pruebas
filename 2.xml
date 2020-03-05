@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[COLOR lime][B]Nacionales[/B][/COLOR]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>GetPageUrl</name>
+<page>https://dailysport.pw</page>
+<thumbnail>https://i.blogs.es/c26042/tdt_phixr/450_1000.jpg</thumbnail></item>
+</item>
+
+<item>
 <title>Real Madrid TV </title>
 <link>http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8</link>
 <thumbnail>https://pbs.twimg.com/profile_images/896773300667461633/F75hrQfN_400x400.jpg</thumbnail>
