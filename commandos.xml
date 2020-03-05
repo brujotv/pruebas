@@ -1,3 +1,9 @@
+
+plugin://program.plexus/?mode=1&url=acestream://e66e8598a0cecb63eaa147711bc4d4158bed479f&name=My+acestream+channel
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
 #EXTINF:-1 tvg-id="Be1.be" tvg-name="Be1 Alt" group-title="News" parent-code="1234" audio-track="nl",Be1 Name http://channel.stream.address/to_be_...te_line/123.ts
 -----------------------------------------------------------------------------------------------------------------------------------
 

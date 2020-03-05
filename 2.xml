@@ -659,24 +659,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR=cyan][COLOR red]xx:xx [COLOR white]---------------------[/COLOR][B]  ESP [/B][/COLOR]</title>
-<sportsdevil>http://elixx.me/apsg.html</sportsdevil>
-<User-Agent></User-Agent>
-<referer></referer>
-<thumbnail>https://i.ibb.co/dbDR99f/Futbol.jpg</thumbnail>
-<fanart>https://i.ibb.co/dbDR99f/Futbol.jpg</fanart>
-</item>
-
-<item>
-<title>sportzonline</title>
-<sportsdevil>https://sportzonline.co/channels/hd/hd6.php</sportsdevil>
-<User-Agent></User-Agent>
-<referer></referer>
-<thumbnail>https://i.ibb.co/dbDR99f/Futbol.jpg</thumbnail>
-<fanart>https://i.ibb.co/dbDR99f/Futbol.jpg</fanart>
-</item>
-
-<item>
 <title>dailysport</title>
 <sportsdevil>https://dailysport.pw/c1.php</sportsdevil>
 <User-Agent></User-Agent>
