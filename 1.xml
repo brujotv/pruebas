@@ -41,3 +41,6 @@ httphost://$http-raw=https://www.janjua.tv/hembedplayer////$http-refferer=http:/
 
 #EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",daily1-(SD) Live Streaming
 httphost://$http-raw=https://dailysport.pw/c1.php////$http-refferer=https://dailysport.pw/c1.php
+
+#EXTINF:-1,fffff
+https://dailysport-cdn000.azureedge.net/live/1/chunks.m3u8
