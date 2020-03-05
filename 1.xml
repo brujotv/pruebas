@@ -1,2 +1,109 @@
 #EXTM3U
 
+
+#EXTINF:-1,Футбол 1 HD
+https://46-166-139-148.livesports24.online/uafootballua1.m3u8
+#EXTINF:-1,Футбол 2 HD
+https://46-166-139-148.livesports24.online/fooootball2.m3u8
+#EXTINF:-1,Беларусь 5
+https://46-166-139-148.livesports24.online/belarusss5.m3u8
+#EXTINF:-1,МАТЧ!
+https://46-166-139-148.livesports24.online/ooomatch.m3u8
+#EXTINF:-1,Матч! Игра
+https://46-166-139-148.livesports24.online/migra.m3u8
+#EXTINF:-1,МАТЧ! Боец
+https://46-166-139-148.livesports24.online/matchboetsru.m3u8
+#EXTINF:-1,МАТЧ! Планета
+https://46-166-139-148.livesports24.online/matchplanetarus.m3u8
+#EXTINF:-1,МАТЧ! Премьер
+https://46-166-139-148.livesports24.online/mpremierrus.m3u8
+#EXTINF:-1,МАТЧ! Страна
+https://46-166-139-148.livesports24.online/mnashsport.m3u8
+#EXTINF:-1,МАТЧ! Футбол 1
+https://46-166-139-148.livesports24.online/ntvmatchfoot1.m3u8
+#EXTINF:-1,МАТЧ! Футбол 2
+https://46-166-139-148.livesports24.online/mfootball2rus.m3u8
+#EXTINF:-1,МАТЧ! Футбол 3
+https://46-166-139-148.livesports24.online/rumatchf3.m3u8
+#EXTINF:-1,Setanta Sports ua
+https://46-166-139-148.livesports24.online/setantaukraine.m3u8
+#EXTINF:-1,Setanta Sports
+https://46-166-139-148.livesports24.online/rusetantaeurasia.m3u8
+#EXTINF:-1,Eurosport 1
+https://46-166-139-148.livesports24.online/eurosport1ru.m3u8
+#EXTINF:-1,Eurosport 2
+https://46-166-139-148.livesports24.online/ruseurosport2.m3u8
+#EXTINF:-1,КХЛ HD
+https://46-166-139-148.livesports24.online/khlhdru.m3u8
+#EXTINF:-1,Sport 1 ua
+https://46-166-139-148.livesports24.online/sport1ua.m3u8
+#EXTINF:-1,Матч!
+http://46.165.2.202:8080/matchtv/index.m3u8
+#EXTINF:-1,Матч!
+https://bl.zxz.su/live/312119/HLS/2883584_1,1153024_2,4614144_3/1565112600/34ad6afdfc67768942b734cd76e5bf31/playlist.m3u8
+#EXTINF:-1,Setanta Sports 1
+http://178.124.183.6:80/hls/FWHTTL8YXU_HLS/variant.m3u8
+#EXTINF:-1,Setanta Sports 2
+http://178.124.183.6:80/hls/5T3FNFICQ4_HLS/variant.m3u8
+#EXTINF:-1,КХЛ
+http://178.124.183.6:80/hls/36H3IDE2WF_HLS/variant.m3u8
+#EXTINF:-1,Беларусь 5
+http://178.124.183.6:80/hls/JRKVSUPCP8_HLS/variant.m3u8
+#EXTINF:-1,Матч! Премьер
+http://188.191.36.106:8080/hls/nashfutbol.m3u8
+#EXTINF:-1, Arena Sport 1 HR HD
+http://185.180.12.34:8080/ARENA1HR/index.m3u8?token=test
+#EXTINF:-1, Arena Sport 2 HR HD
+http://185.180.12.34:8080/ARENA2HR/index.m3u8?token=test
+#EXTINF:-1, Arena Sport 3 HR HD
+http://185.180.12.34:8080/ARENA3HR/index.m3u8?token=test
+#EXTINF:-1, Arena Sport 4 HR HD
+http://185.180.12.34:8080/ARENA4HR/index.m3u8?token=test
+#EXTINF:-1, SK10
+http://185.180.12.34:8080/SK10/video.m3u8?token=test
+#EXTINF:-1, SK1 HR HD
+http://185.180.12.34:8080/SK1HR/index.m3u8?token=test
+#EXTINF:-1, SK2 HR HD
+http://185.180.12.34:8080/SK2HR/index.m3u8?token=test
+#EXTINF:-1, SK3 HR HD
+http://185.180.12.34:8080/SK3HR/index.m3u8?token=test
+#EXTINF:-1, SK4
+http://185.180.12.34:8080/SK4/video.m3u8?token=test
+#EXTINF:-1, SK5
+http://185.180.12.34:8080/SK5/video.m3u8?token=test
+#EXTINF:-1, SK6
+http://185.180.12.34:8080/SK6/video.m3u8?token=test
+#EXTINF:-1, SK7
+http://185.180.12.34:8080/SK7/video.m3u8?token=test
+#EXTINF:-1, SK8
+http://185.180.12.34:8080/SK8/video.m3u8?token=test
+#EXTINF:-1, SK9
+http://185.180.12.34:8080/SK9/video.m3u8?token=test
+#EXTINF:-1, Sportska TV
+http://185.180.12.34:8080/SPORTSKATV/video.m3u8?token=test
+#EXTINF:-1, SKY SPORT1 HD
+http://185.180.12.89:8080/SPORT1/index.m3u8?token=test
+#EXTINF:-1, SKY SPORT2 HD
+http://185.180.12.89:8080/SPORT2/index.m3u8?token=test
+#EXTINF:-1, SportTv 3
+http://62.203.143.51:9981/play/SPORT3
+#EXTINF:-1, SportTv 1
+http://62.203.143.51:9981/play/SPORTTV1
+#EXTINF:-1, SportTv 2
+http://62.203.143.51:9981/play/SPORTV2
+#EXTINF:-1, RMC Sport 1
+http://78.46.73.89:8000/live/Shooftvplus/Cukhgylc566/361.ts
+#EXTINF:-1, RMC Sport 2
+http://78.46.73.89:8000/live/Shooftvplus/Cukhgylc566/362.ts
+#EXTINF:-1, RMC Sport 3
+http://78.46.73.89:8000/live/Shooftvplus/Cukhgylc566/363.ts
+#EXTINF:-1, RMC Sport 4
+http://78.46.73.89:8000/live/Shooftvplus/Cukhgylc566/364.ts
+#EXTINF:-1, RMC Sport 5
+http://78.46.73.89:8000/live/Shooftvplus/Cukhgylc566/365.ts
+#EXTINF:-1, RMC Sport 6
+http://78.46.73.89:8000/live/Shooftvplus/Cukhgylc566/366.ts
+#EXTINF:-1, RTSH Sport
+http://79.106.48.2/live/rtsh_sport_ott_p3/playlist.m3u8
+#EXTINF:-1, FOX Sport HD 1 -USA-
+http://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master1280x720.m3u8
