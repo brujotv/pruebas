@@ -1,135 +1,164 @@
 #EXTM3U
 
-#EXTINF:-1,ALFajer
-http://local.referrari.com/live/21124_.m3u8?token=3761a94b938d4ba1847a4246bcb33662
-
-#EXTINF:-1,4MB HD
-https://www.livedoomovies.com/02_PremierHD1_720p/chunklist2.m3u8
-
-  #EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports1 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports1azddd/1/600/420$http-refferer=https://arembed.com/live.php?ch=Bein_Sports1
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports3 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinpsortsh3h/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports3
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports3 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinpsortsh3h/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports3
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports4 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer////$http-refferer=http://arembed.com/live.php?ch=Bein_Sports4
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports5 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsportshdg5/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports5
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports6 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsportsg6dyh/1/600/420$http-refferer=https://arembed.com/live.php?ch=Bein_Sports6
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports7 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer////$http-refferer=https://arembed.com/live.php?ch=Bein_Sports7
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports8 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsportsdr6t/1/600/420$http-refferer=https://arembed.com/live.php?ch=Bein_Sports8
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports9 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsportshd9j/1/600/420$http-refferer=https://arembed.com/live.php?ch=Bein_Sports9
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports10 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beisnportsh10djcza/1/600/420$http-refferer=https://arembed.com/live.php?ch=Bein_Sports10
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports11 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beisnportsh10djcza/1/600/420$http-refferer=https://arembed.com/live.php?ch=Bein_Sports11
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports12 Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports12
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports1Max Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports1Max
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports2Max Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports2Max
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports3Max Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer/beinsports10hdaz/1/600/420$http-refferer=http://arembed.com/live.php?ch=Bein_Sports3Max
-#EXTINF:1 tvg-id="" tvg-name="ZEE18" tvg-logo="",Bein_Sports4Max Live Streaming
-httphost://$http-raw=https://www.janjua.tv/hembedplayer////$http-refferer=http://arembed.com/live.php?ch=Bein_Sports4Max
-
-#EXTINF:-1,BSX 24 (18+)
-rtsp://publish.thewebstream.co:1935/bsx24/_definst_/mpegts1.stream
-#EXTINF:-1,Babestation (18+)
-http://publish.thewebstream.co:1935/cellcast/encoder22/playlist.m3u8
-#EXTINF:-1,Babestation 2 (18+)
-http://publish.thewebstream.co:1935/iptv_cellcast_24/livestream_two2/playlist.m3u8
-#EXTINF:-1,Babestation Blue (18+)
-http://publish.thewebstream.co:1935/cellcast/encoder32/playlist.m3u8
-#EXTINF:-1,Babestation Xtra (18+)
-http://publish.thewebstream.co:1935/cellcast/encoder72/playlist.m3u8
-#EXTINF:-1,But Go (18+)
-http://main2sb.everyon.tv:1935/etv2sb/pld10772/HasBahCa.m3u8
-#EXTINF:-1,Candy (18+)
-http://cdn-01.bonus-tv.ru/btv/candy/type/user/devname/LG-SmartTV/devid/LG-1469816054/eol/20200101T0000/hash/e822f177cb4785c93f7b0a50a3534432478f512b/track_2_1000/playlist.m3u8
-#EXTINF:-1,Dollhouse Cam 1 (18+)
-rtmp://216.105.165.72:1941/stream9/live
-#EXTINF:-1,Dollhouse Cam 2 (18+)
-rtmp://216.105.165.72:1939/stream7/live
-#EXTINF:-1,Dollhouse Cam 3 (18+)
-rtmp://216.105.165.72:1940/stream8/live
-#EXTINF:-1,Foxxbabes (18+)
-http://publish.thewebstream.co:1935/leved/foxxxbabes/playlist.m3u8
-#EXTINF:-1,Girls (18+)
-http://123.108.164.70/etv2sb/phd10501/playlist.m3u8
-#EXTINF:-1,HOT AND WET (18+)
-http://publish.thewebstream.co:1935/leved/_definst_/hotandwet1/playlist.m3u8
-#EXTINF:-1,Jasmin TV (18+)
-http://109.71.162.112:1935/live/sd.jasminchannel.stream/playlist.m3u8
-#EXTINF:-1,Jasmin TV HD (18+)
-http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
-#EXTINF:-1,Live Sex Latinas (18+)
-http://publish.thewebstream.co:1935/leved/_definst_/livesexlatinas/playlist.m3u8
-#EXTINF:-1,LIVETing TV (18+)
-http://main2sb.everyon.tv:1935/etv2sb/pld10062/HasBahCa.m3u8
-#EXTINF:-1,Okadai TV (18+)
-http://main2sb.everyon.tv:1935/etv2sb/pld10499/HasBahCa.m3u8
-#EXTINF:-1,Penthouse Asia (18+)
-http://main1sb.everyon.tv:1935/etv1sb/pld10927/HasBahCa.m3u8
-#EXTINF:-1,Play (18+)
-http://123.108.164.70/etv2sb/phd10769/playlist.m3u8
-#EXTINF:-1,Playboy Asia (18+)
-http://main1sb.everyon.tv:1935/etv1sb/pld10497/HasBahCa.m3u8
-#EXTINF:-1,Playboy TV Chat 1 (18+)
-http://publish.thewebstream.co:1935/rlc/_definst_/livestream1/playlist.m3u8
-#EXTINF:-1,Playboy TV Chat 2 (18+)
-http://publish.thewebstream.co:1935/rlc/_definst_/livestream_two1/playlist.m3u8
-#EXTINF:-1,STUDIO 66 TV (18+)
-http://publish.thewebstream.co:1935/leved/studio66tv_channel11/chunklist.m3u8
-#EXTINF:-1,STUDIO 66 TV 2 (18+)
-http://publish.thewebstream.co:1935/leved/studio66tv_channel21/chunklist.m3u8
-#EXTINF:-1,STUDIO 66 TV 3 (18+)
-http://publish.thewebstream.co:1935/leved/studio66tv_channel31/chunklist.m3u8
-#EXTINF:-1,STUDIO 66 TV 4 (18+)
-http://publish.thewebstream.co:1935/leved/studio66tv_channel41/chunklist.m3u8
-#EXTINF:-1,Sexy Sat Arab. (18+)
-http://81.89.48.215:1935/xyz888wkz/xy8/playlist.m3u8
-#EXTINF:-1,Sexy Sat Arab 2 (18+)
-http://81.89.48.215:1935/xyz222wkz/xyz222wkz.stream_360p/playlist.m3u8
-#EXTINF:-1,Sexy Sat Satview (18+)
-http://81.89.48.215:1935/xyz112wkz/xy112_360p/playlist.m3u8
-#EXTINF:-1,Sexy Sat Europe (18+)
-http://81.89.48.215:1935/xyz444wkz/xy4_360p/playlist.m3u8
-#EXTINF:-1,Sexy Sat 1 (18+)
-http://81.89.48.215:1935/xyz666wkz/xy6/playlist.m3u8
-#EXTINF:-1,Sexy Sat 2 (18+)
-http://81.89.48.215:1935/xyz555wkz/xy5/playlist.m3u8
-#EXTINF:-1,Sexy Sat 3 (18+)
-http://81.89.48.215:1935/xyz777wkz/xy777/playlist.m3u8
-#EXTINF:-1,Sexy Sat Brasil (18+)
-http://81.89.48.215:1935/xyz111wkz/xy111_360p/playlist.m3u8
-#EXTINF:-1,THE O (18+)
-http://123.108.164.70/etv2sb/phd10771/playlist.m3u8
-#EXTINF:-1,VISIT-X TV (18+)
-http://stream.visit-x.tv:1935/vxtv/live_720p/playlist.m3u8
-#EXTINF:-1,XXXPanded 1 (18+)
-http://vod2t.xxxpanded.com/x3tv/index_wlan.m3u8
-#EXTINF:-1,XXXPanded 2 (18+)
-http://vod2t.xxxpanded.com/x3tv2/index_wlan.m3u8
-#EXTINF:-1,Playboy TV (18+)
-http://4BA9EBDB07C05883:@t.kraslan.ru/playboy
-#EXTINF:-1,Brazzers TV Europe (18+)
-http://4BA9EBDB07C05883:@t.kraslan.ru/brazzers
-#EXTINF:-1,Hustler HD (18+)
-http://0E9B00ECD326CCAC:@t.kraslan.ru/hustlerhd
-#EXTINF:-1,XXX Asia (18+)
-http://211.22.61.109/stc/ch168171.m3u8
-#EXTINF:-1,Amazing TV (18+)
-http://211.22.61.109/stc/ch168172.m3u8
-#EXTINF:-1,Banana (18+)
-http://211.22.61.109/stc/ch168173.m3u8
-#EXTINF:-1,=== ВИДЕО (18+) ===
-http://hls2.slynet.pw/slynetfreestartpromo?.m3u8
-
-
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+"
+movistar
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. Accion
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=358&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. ACCION FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3799&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.Comedia
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=363&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.COMEDIA FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3804&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. Drama
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=360&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. DRAMA FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3801&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. Cine Espaol
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=426&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. Cine Espaol FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3847&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.Cine Doc & Roll
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=437&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.CineDoc&Roll FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3850&t=live&f=ts
+#EXTINF:0 tvg-id="CanalPlusSeries.sp" group-title="MOVISTAR+",M. Series
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=362&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M. SERIES FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3803&t=live&f=ts
+#EXTINF:0 tvg-id="Hollywood.sp" group-title="MOVISTAR+",Hollywood
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=354&t=live&f=ts
+#EXTINF:0 tvg-id="Hollywood.sp" group-title="MOVISTAR+",HOLLYWOOD FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3796&t=live&f=ts
+#EXTINF:0 tvg-id="Paramount.es" group-title="MOVISTAR+",Paramount Channel
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=454&t=live&f=ts
+#EXTINF:0 tvg-id="ParamountChannel.fr" group-title="MOVISTAR+",Paramount FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3855&t=live&f=ts
+#EXTINF:0 tvg-id="TCM.sp" group-title="MOVISTAR+",TCM
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=373&t=live&f=ts
+#EXTINF:0 tvg-id="TCM.sp" group-title="MOVISTAR+",TCM FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3813&t=live&f=ts
+#EXTINF:0 tvg-id="TNT.sp" group-title="MOVISTAR+",TNT
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=375&t=live&f=ts
+#EXTINF:0 tvg-id="TNT.sp" group-title="MOVISTAR+",TNT FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3815&t=live&f=ts
+#EXTINF:0 tvg-id="Sundance.es" group-title="MOVISTAR+",Sundance
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=456&t=live&f=ts
+#EXTINF:0 tvg-id="SundanceChannel.pl" group-title="MOVISTAR+",Sundance TV FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3856&t=live&f=ts
+#EXTINF:0 tvg-id="Hashtag0.es" group-title="MOVISTAR+",#0
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=378&t=live&f=ts
+#EXTINF:0 tvg-id="Hashtag0.es" group-title="MOVISTAR+",#0 FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3818&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.Series Mania
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=368&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.Seriesmania FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3809&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.ESTRENOS FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3805&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.Disney
+http://tvservice.pro:80/live/910347576605/XFTTwadISArfKnk/21302.m3u8
+#EXTINF:0 tvg-id="ext" group-title="MOVISTAR+",M.Cine HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=26089&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="Deportes",M. LaLiga HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=26046&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="Deportes",M. LaLiga 1 FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=24929&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="Deportes", #vamos Full HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3819&t=live&f=ts
+#EXTINF:0 tvg-id="ext" group-title="Deportes",M. GOLF FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3802&t=live&f=ts
+#EXTINF:0 tvg-id="DiscoveryChannel.sp" group-title="MOVISTAR+",Discovery FULL HD
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3836&t=live&f=ts
+#EXTINF:-1,|ES| #VAMOS
+http://app.powerfhd.me/live/sup.php?z=997&u=uw51765hU6s5651&s=151556715967959&id=3819&t=live&f=ts
+#EXTINF:-1,|ES|MOVISTAR_DEPORTES_1_HD
+http://king365-tv.com:2103/15808/15808/594
+#EXTINF:-1,|ES|MOVISTAR_DEPORTES_1_FHD
+http://king365-tv.com:2103/15808/15808/6054
+#EXTINF:-1,|ES|VAMOS_HD
+http://king365-tv.com:2103/15808/15808/593
+#EXTINF:-1,|ES|VAMOS_FHD
+http://king365-tv.com:2103/15808/15808/2266
+#EXTINF:-1,|ES|SPORT_3_CAT_HD
+http://king365-tv.com:2103/15808/15808/2120
+#EXTINF:-1,|ES|MOVISTAR_F1_HD
+http://king365-tv.com:2103/15808/15808/621
+#EXTINF:-1,|ES|MOVISTAR_F1_FHD
+http://king365-tv.com:2103/15808/15808/2574
+#EXTINF:-1,|ES|MOVISTAR _MOTOGP_HD
+http://king365-tv.com:2103/15808/15808/622
+#EXTINF:-1,|ES|MOVISTAR _MOTOGP_FHD
+http://king365-tv.com:2103/15808/15808/2575
+#EXTINF:-1,|ES|MOVISTAR+ LALIGA_1_HD
+http://king365-tv.com:2103/15808/15808/641
+#EXTINF:-1,|ES|MOVISTAR+ LALIGA_1_FHD
+http://king365-tv.com:2103/15808/15808/2115
+#EXTINF:-1,|ES|MOVISTAR _LIGA_DE_CAMPEONES_SD
+http://king365-tv.com:2103/15808/15808/361
+#EXTINF:-1,|ES|MOVISTAR _LIGA_DE_CAMPEONES_HD
+http://king365-tv.com:2103/15808/15808/14624
+#EXTINF:-1,|ES|MOVISTAR _LIGA_DE_CAMPEONES_FHD
+http://king365-tv.com:2103/15808/15808/2083
+#EXTINF:-1,|ES|BeIN_LALIGA_SD
+http://king365-tv.com:2103/15808/15808/362
+#EXTINF:-1,|ES|MOVISTAR_LALIGA_HD
+http://king365-tv.com:2103/15808/15808/14973
+#EXTINF:-1,|ES|MOVISTAR_LALIGA_FHD
+http://king365-tv.com:2103/15808/15808/2082
+#EXTINF:-1,|ES|LALIGA_TV_BAR_FHD
+http://king365-tv.com:2103/15808/15808/2084
+#EXTINF:-1,|ES|M_F1_UHD_4K
+http://king365-tv.com:2103/15808/15808/2155
+#EXTINF:-1,|ES|FOX_SPORT_1_LATINO
+http://king365-tv.com:2103/15808/15808/2110
+#EXTINF:-1,|ES|FOX_SPORT_2_LATINO
+http://king365-tv.com:2103/15808/15808/2111
+#EXTINF:-1,|ES|FOX_SPORT_3_LATINO
+http://king365-tv.com:2103/15808/15808/2112
+#EXTINF:-1,|ES|GOL_TV
+http://king365-tv.com:2103/15808/15808/858
+#EXTINF:-1,|ES|TELEDEPORTE_HD
+http://king365-tv.com:2103/15808/15808/863
+#EXTINF:-1,|ES|TELEDEPORTE_FHD
+http://king365-tv.com:2103/15808/15808/2122
+#EXTINF:-1,|ES|BARCA_TV
+http://king365-tv.com:2103/15808/15808/643
+#EXTINF:-1,|ES|REAL_MADRID_TV
+http://king365-tv.com:2103/15808/15808/620
+#EXTINF:-1,|ES|BETIS TV
+http://king365-tv.com:2103/15808/15808/7009
+#EXTINF:-1,|ES|M.PARTIDAZO_(Solo_partidos)_FHD
+http://king365-tv.com:2103/15808/15808/827
+#EXTINF:-1,|ES|BeIN_LALIGA_4K_UHD
+http://king365-tv.com:2103/15808/15808/7001
+#EXTINF:-1,|ES|M.L.CAMPEONES_4K_UHD
+http://king365-tv.com:2103/15808/15808/15343
+#EXTINF:-1,|ES|MULTIDEPORTE_1
+http://king365-tv.com:2103/15808/15808/1620
+#EXTINF:-1,|ES|MULTIDEPORTE_2
+http://king365-tv.com:2103/15808/15808/1621
+#EXTINF:-1,|ES|MULTIDEPORTE_3
+http://king365-tv.com:2103/15808/15808/2811
+#EXTINF:-1,|ES|BEIN_MAX_1_(Solo partidos)
+http://king365-tv.com:2103/15808/15808/822
+#EXTINF:-1,|ES|BEIN_MAX_2_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/823
+#EXTINF:-1,|ES|BEIN_MAX_3_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/2229
+#EXTINF:-1,|ES|BEIN_MAX_4_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/2230
+#EXTINF:-1,|ES|MOVISTAR_LALIGA_FHD(Solo partidos)
+http://king365-tv.com:2103/15808/15808/6886
+#EXTINF:-1,|ES|LIGA_DE_CAMPEONES_1_FHD(Solo partidos)
+http://king365-tv.com:2103/15808/15808/6884
+#EXTINF:-1,|ES|LIGA_DE_CAMPEONES_2_FHD(Solo partidos)
+http://king365-tv.com:2103/15808/15808/6885
+#EXTINF:-1,|ES|MULTIFUT_1_HD_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/2282
+#EXTINF:-1,|ES|MULTIFUT_2_HD_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/2283
+#EXTINF:-1,|ES|MULTIFUT_3_HD_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/2284
+#EXTINF:-1,|ES|MULTIFUT_4_HD_(Solo_partidos)
+http://king365-tv.com:2103/15808/15808/2285
