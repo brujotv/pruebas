@@ -2,6 +2,231 @@
 
 
  <item>
+<title>[B] HISTORIA HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=historia&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/HISTORIA/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://canalhistoria.es/wp-content/uploads/2016/07/39244054_Historia_Logo_2015_RGB_Black_type-1.png</thumbnail>
+</item>
+ 
+
+
+
+
+<item>
+<title>[B]HISTORIA[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/historia.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/historia.php</referer>
+</regex>
+<thumbnail>https://canalhistoria.es/wp-content/uploads/2016/07/39244054_Historia_Logo_2015_RGB_Black_type-1.png</thumbnail>
+<fanart>https://canalhistoria.es/wp-content/uploads/2016/07/39244054_Historia_Logo_2015_RGB_Black_type-1.png</fanart>
+</item>
+ 
+<item>
+<title>[B]DISCOVERY CHANNEL[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/discovery-channel.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/discovery-channel.php</referer>
+</regex>
+<thumbnail>https://banner2.kisspng.com/20180614/rru/kisspng-discovery-channel-television-channel-television-sh-discovery-5b21f1bb6b4bd1.7092181715289512274395.jpg</thumbnail>
+<fanart>https://banner2.kisspng.com/20180614/rru/kisspng-discovery-channel-television-channel-television-sh-discovery-5b21f1bb6b4bd1.7092181715289512274395.jpg</fanart>
+</item>
+ 
+
+ 
+ 
+ 
+<item>
+<title>[B] NAT-GEO-WID HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=nat-geo-wid&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/NAT-GEO-WID/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/3e/Nat_Geo_Wild_HD_logo.png</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
+<title>[B]NATIONAL GEO WILD[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/nationalwild.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/nationalwild.php</referer>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/3e/Nat_Geo_Wild_HD_logo.png</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/3/3e/Nat_Geo_Wild_HD_logo.png</fanart>
+</item>
+ 
+
+ 
+<item>
+<title>[B] NATIONAL GEOGRAPHIC HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=nat-geo-wid&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page>http://piratalocotv.xyz/NATIONAL-GEOGRAPHIC/</page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/National_Geographic_Channel-Logo.svg/1280px-National_Geographic_Channel-Logo.svg.png</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
+ 
+ <item>
+<title>[B]NATIONAL GEOGRAPHIC[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/nationalgeo.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/nationalgeo.php</referer>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/National_Geographic_Channel-Logo.svg/1280px-National_Geographic_Channel-Logo.svg.png</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/National_Geographic_Channel-Logo.svg/1280px-National_Geographic_Channel-Logo.svg.png</fanart>
+</item>
+ 
+ 
+ 
+<item>
+<title>[B]ODISEA[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/odisea.php<page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/odisea.php</referer>
+</regex>
+<thumbnail>https://www.formulatv.com/images/noticias/55600/55629/1_d8fe9d8dd9.jpg</thumbnail>
+<fanart>https://www.formulatv.com/images/noticias/55600/55629/1_d8fe9d8dd9.jpg</fanart>
+</item>
+ 
+ 
+<item>
+<title>[B] crimen - investigación HD  [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=crimeninvestigación&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<regex><name>getMu8</name>
+<expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
+<page></page>
+<referer>http://piratalocotv.xyz</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://www.neeo.es/wp-content/uploads/nuevo-logo-crimen.png</thumbnail>
+</item>
+ 
+ 
+ 
+ 
+ 
+<item>
+<title>[B]crimen & investigación[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/ci.php<page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/ci.php</referer>
+</regex>
+<thumbnail>https://www.neeo.es/wp-content/uploads/nuevo-logo-crimen.png</thumbnail>
+<fanart>https://www.neeo.es/wp-content/uploads/nuevo-logo-crimen.png</fanart>
+</item>
+ 
+ 
+<item>
+<title>[B]CAZA Y PESCA[/B]</title>
+<link>$doregex[getMu8]</link>
+<regex><name>getMu8</name>
+<expres>source: '([^']+)</expres>
+<page>http://piratalocotv.xyz/CAZA-Y-PESCA/</page>
+<referer>http://piratalocotv.xyz/CAZA-Y-PESCA/</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
+</regex><thumbnail>https://archive.is/Mk2Xz/ecbf7f77530b9a8a391378df0498bb294a458f68.jpg</thumbnail>
+</item>
+ 
+ 
+<item>
+<title>[B] CAZAVISION [/B] </title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://photocall.tv/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[new Clappr.Player[\w\W]*?source.+?[\'"]([^\'"]+)]]></expres>
+<page>http://hls.giize.com/p1?ch=caz_es</page>
+<referer>http://photocall.tv/</referer>
+</regex>
+<thumbnail>https://www.cazavision.com/sites/default/files/images/cazavision.jpg</thumbnail>
+<fanart>https://www.cazavision.com/sites/default/files/images/cazavision.jpg</fanart>
+</item>
+
+ 
+ <item>
+<title>[B]BLAZE[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live/blaze.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live/blaze.php</referer>
+</regex>
+<thumbnail>https://s15.postimg.cc/rsx9hh3qz/blaze.png</thumbnail>
+<fanart>https://s18.postimg.cc/kvp4paatl/fondocanalestv.jpg</fanart>   
+</item>
+
+
+ <item>
 <title>[B][LOWERCASE][CAPITALIZE][COLOR white]movistar deportes [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
 <link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://revolucionariostv.eu/</link>
 <regex>
