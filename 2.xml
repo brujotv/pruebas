@@ -57,12 +57,12 @@
  
  
 <item>
-<title>[B] NAT-GEO-WID HD  [/B]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=nat-geo-wid&amp;url=$doregex[getMu8]|Referer=http://piratalocotv.xyz/LA-LIGA-TV/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
+<title>[B] dailysport [/B]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=nat-geo-wid&amp;url=$doregex[getMu8]|Referer=https://www.dailysport.pw/c1.php/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</link>
 <regex><name>getMu8</name>
 <expres>(?s)Clappr.Player.*?['|"](.*?)['|"]</expres>
-<page>http://piratalocotv.xyz/NAT-GEO-WID/</page>
-<referer>http://piratalocotv.xyz</referer>
+<page>https://www.dailysport.pw/c1.php</page>
+<referer>https://www.dailysport.pw/c1.php</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0</agent>
 </regex><thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/3e/Nat_Geo_Wild_HD_logo.png</thumbnail>
 </item>
