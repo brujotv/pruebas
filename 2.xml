@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
+ <item>
+<title>[B][LOWERCASE][CAPITALIZE][COLOR white]movistar deportes [/COLOR][/CAPITALIZE][/LOWERCASE][/B]</title>
+<link>$doregex[getUrl]|user-agent=ipad&amp;referer=http://revolucionariostv.eu/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[source: '(.*?)']]></expres>
+<page>http://revolucionariostv.eu/directo1.php</page>
+<referer>http://revolucionariostv.eu/</referer>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/1060960649969369088/9kVEbgF2_400x400.jpg</fanart>
+</item>
+
+ <item>
+<title>[B] LIGA DE CAMPEONES[/B]</title>
+<link>https:$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>'(//.*m3u8.*?)'</expres>
+<rawpost>manzana66=12345</rawpost>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+<page>https://vergol.com/bgjhykdmbtj668/live3/campeones.php</page>
+<referer>https://vergol.com/bgjhykdmbtj668/live3/campeones.php</referer>
+</regex>
+<thumbnail>https://www.audiovisual451.com/wp-content/uploads/Movistar-Liga-de-Campeones.jpg</thumbnail>
+<fanart>https://www.audiovisual451.com/wp-content/uploads/Movistar-Liga-de-Campeones.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]Eventos Deportes [COLOR gold]6 [/COLOR]</title>
+<sportsdevil>http://sportzonline.pw/channels/hd/hd6.php</sportsdevil>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<referer></referer>
+</item>
+
+
+<item>
+<title> Juventus vs Atlético Madrid	 (TNT HD - English)    [/COLOR]</title>
+<link>$doregex[ip]</link>
+<regex>
+<name>ip</name>
+<expres>file: '(.*?)'</expres>
+<Accept>*/*</Accept>
+<Accept-Encoding>gzip, deflate, br</Accept-Encoding>
+<page>https://tumarcador.xyz/ac4.php</page>
+<referer>https://tumarcador.xyz/ac4.php</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36</agent>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<thumbnail></thumbnail></item>
+</item>
+
+
+
 <item>
 <title>[B][LOWERCASE][CAPITALIZE][COLOR white] DEPORTES TU MARCADOR CORTESIA TORETE[COLOR lime][/CAPITALIZE][/LOWERCASE][/B][/COLOR]</title>        
 <link>$doregex[yaestaarreglada]</link>
