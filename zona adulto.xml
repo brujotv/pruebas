@@ -211,11 +211,13 @@
 <thumbnail>https://adictosalatele.com/canales-de-espana/logos/comedycentral.png</thumbnail>
 </plugin>
 
+<item>
 <plugin>
 <title>[B][COLOR yellow]MTV ESPAÑA [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/fag0qnhg8&amp;referer=https://adictosalatele.com</link>
 <thumbnail>https://adictosalatele.com/canales-de-espana/logos/mtv.png</thumbnail>
 </plugin>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR] menus xxx</title>
