@@ -1,6 +1,221 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<plugin>
+<title>[B][COLOR yellow]TVE 1 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/la1.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ANTENA 3 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/le870ahdxekxml&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/la3.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]LA SEXTA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/57wo4o3p18csy&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/la6.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]MEGA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/8g3y1&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/mega.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NEOX [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/58tn3s5rw&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/neox.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FDF [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/p9imvvt&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/fdf.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TELEMADRID [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://adictosalatele.com/logos/mantenimiento.png&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/telemadrid.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]BEMAD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/mic0sx5gt&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/bemad.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TEN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://adictosalatele.com/logos/mantenimiento.png&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/ten.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ATRESERIES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://adictosalatele.com/logos/mantenimiento.png&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/atreseries.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ENERGY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/t38wk&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/energy.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DKISS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://adictosalatele.com/logos/mantenimiento.png&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/dkiss.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]PARAMOUNT CHANNEL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/of961ag7900&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/paramount.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]#0 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/f3q9lhvcl9q&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/canal0.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL ESTRENOS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/o48bvtquehj&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/movistarestrenos.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL ACCION [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/edjh2zoe2bn&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/movistaraccion.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL DRAMA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/wnmsgb1r40h&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/movistardrama.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL COMEDIA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/xjgsilr7&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/movistarcomedia.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DCINE Ñ [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/vpvup1g&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/dcinen.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL SERIES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/y17f2ljnk&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/movistarseries.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]SERIES MANIA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/e2noy4t1h4qgg58&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/seriesmania.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL TOROS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/iav1yq9ud5&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/toros.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/qdc68lgelmci&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/fox.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AXN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/73mi3panviqkbn5&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/axn.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TNT [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/b64jhw&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/tnt.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AMC [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/pgsql3pvf&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/amc.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX LIFE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/l0jc2273zi2d&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/foxlife.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AXN WHITE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/qr6rcapq257fc5&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/axnwhite.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CALLE 13 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/msr267eh&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/calle13.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]SYFY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/4620ulqbe8n64f8&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/syfy.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HOLLYWOOD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/92qxykf3vl5n&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/hollywood.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TCM [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/0oort2nj8snsvx&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/tcm.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DARK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/yj4ff0w&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/dark.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]XTRM [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/xwzfnycpmwru&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/xtrm.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]COMEDY CENTRAL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/ujx1zzjkz4td1&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/comedycentral.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]MTV ESPAÑA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/fag0qnhg8&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/mtv.png</thumbnail>
+</plugin>
 
 <item>
 <title>[COLOR lime]•[/COLOR] menus xxx</title>
